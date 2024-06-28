@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhyno Rentals</title>
+    <link rel="stylesheet" href="rental.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;600&display=swap">
+</head>
+<style>
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+body {
+    font-family: 'Calibri', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+header {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 700;
+}
+
+main {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Poppins, sans-serif;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 380px;
+    top: 0px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #3C3C3C;
+}
+
+.download-app {
+    text-align: center;
+}
+
+#download{
+      margin-left: 795px;
+      width: 380px;
+      height: 80px;
+      object-fit: cover;
+    }
+
+footer {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    right: 0px;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.social-links i {
+    font-size: 1.5em;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-links a:hover i {
+    transform: scale(1.1);
+    color: #F9ED32;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    color: #F2F2F2;
+}
+
+.tag1 {
+    font-size: 22px;
+    color: #F2F2F2;
+    position: relative;
+    left: 480px;
+}
+
+.tag2 {
+    font-size: 20px;
+    color: #F2F2F2;
+    position: relative;
+    left: 300px;
+    text-align: center;
+}
+
+.t1 {
+    padding: 15px;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #252525;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 700;
+    margin-left: 0px;
+}
+
+main {
+    padding: 50px;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 700;
+    margin-left: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    section {
+        padding: 15px;
+    }
+    
+
+    h1 {
+        margin-bottom: 10px;
+    }
+    
+    p {
+        font-size: 1em;
+        line-height: 1.3;
+    }
+    
+    .download-app {
+        margin-top: 30px;
+    }
+    
+    .tag1, .tag2 {
+        display: none;
+    }
+}
+</style>
+<body>
+    <header>
+        <img src="colorlogo.png" class="logo"> <h1>Explore Freedom with Rhyno Rentals</h1>
+    </header>
+    <main>
+        <section class="rental-options">
+            
+            <h2>Flexible Rental Options</h2>
+            <p>Experience the power of Rhyno at your own pace. Choose from our weekly or monthly rentals to test the waters before committing. Visit your nearest authorized dealership to unlock this opportunity.</p>
+        </section>
+        <section class="campus-commuter">
+            <h2>Effortless Campus Commuting</h2>
+            <p>Redefine your college experience with our hourly Rhyno rentals. Download our user-friendly mobile app and navigate your daily commute with ease. Embrace the freedom to ride and explore a new dimension in sustainable and convenient transportation.</p>
+        </section>
+        <section class="download-app">
+            <h2>Download the Rhyno Rental App</h2>
+            <div>
+                <a href="#">
+                    <img id="download" src="https://github.com/srivatsa2005/rental-hyperlink/blob/main/appp.png?raw=true">
+                </a>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p class="tag1">Rhyno Rentals. All Rights Reserved.</p>
+            <p  class="tag2">Follow us on</p>
+            <ul class="social-links">
+               
+                <li class="t1"><a href="#"> <span class="sr-only">Follow Rhyno on Facebook</span> <i class="fab fa-facebook-f"></i></a></li>
+                <li class="t1"><a href="#"> <span class="sr-only">Follow Rhyno on Twitter</span> <i class="fab fa-twitter"></i></a></li>
+                <li class="t1"><a href="#"> <span class="sr-only">Follow Rhyno on Instagram</span> <i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
